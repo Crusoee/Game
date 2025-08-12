@@ -11,6 +11,8 @@ public:
 
 	int health;
 	int damage;
+	int thorns;
+	int lifesteal;
 
 	float posX;
 	float posY;
