@@ -1,5 +1,11 @@
+#pragma once
+#include "Mobile.h"
+#include <raylib.h>
 
-class Player
+class Player:
+	public Mobile
 {
-
+public:
+	Player();
+	void getInput();
 };

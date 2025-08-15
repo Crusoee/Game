@@ -1,29 +1,28 @@
 #pragma once
 #include <stdio.h>
 #include <string>
+#include "Vec2.h"
+#include <raylib.h>
+#include <cmath>
+#include <stdio.h>
 
 using namespace std;
 
 class Object
 {
 public:
-	Object(int posX, int posY, int sizeX, int sizeY);
+	Object();
 
 	int health;
 	int damage;
 	int thorns;
 	int lifesteal;
 
-	float posX;
-	float posY;
+	Vec2 pos;
 	int sizeX;
 	int sizeY;
 
-	float speed;
-
 	string name;
-
-	void move();
 
 };
 
